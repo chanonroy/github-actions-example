@@ -3,7 +3,7 @@ name: Beta Service
 on:
   push:
     paths:
-    - '/packages/beta/*'
+      - 'packages/beta/*'
 
 jobs:
   test:
