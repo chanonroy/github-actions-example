@@ -1,15 +1,16 @@
 name: Alpha Service
 
-on:
-  push:
-    branches:
-      - master
+on: [push]
 
 jobs:
   test:
     name: Alpha Service Test
     runs-on: ubuntu-18.04
     steps:
+      - name: Build
+        run:
+          yarn install 
+
       - name: Run Unit Tests
         run:
           yarn workspace alpha run test
