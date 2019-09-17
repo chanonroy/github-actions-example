@@ -1,13 +1,13 @@
-name: Alpha Service
+name: Beta Service
 
 on:
   push:
     paths:
-      - 'packages/alpha/*'
+      - 'packages/beta/*'
 
 jobs:
   test:
-    name: Alpha Service Test
+    name: Beta Service Test
     runs-on: ubuntu-18.04
     steps:
       - name: Build
@@ -16,5 +16,5 @@ jobs:
 
       - name: Say Hello
         run:
-          echo Alpha
+          echo Beta
 
