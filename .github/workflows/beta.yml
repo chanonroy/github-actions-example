@@ -1,6 +1,9 @@
 name: Beta Service
 
-on: [push]
+on:
+  push:
+    paths:
+    - '/packages/beta/*'
 
 jobs:
   test:

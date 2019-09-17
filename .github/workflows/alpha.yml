@@ -1,6 +1,9 @@
 name: Alpha Service
 
-on: [push]
+on:
+  push:
+    paths:
+    - '/packages/alpha/*'
 
 jobs:
   test:
