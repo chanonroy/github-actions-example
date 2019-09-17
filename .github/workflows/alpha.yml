@@ -1,0 +1,16 @@
+name: Alpha Service
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    name: Alpha Service Test
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Say Hello
+      run:
+        echo Hello World
+
