@@ -1,1 +1,1 @@
-console.log('beta');
+module.exports = 'beta';

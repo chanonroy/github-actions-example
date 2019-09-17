@@ -1,1 +1,1 @@
-console.log('alpha');
+module.exports = 'alpha';

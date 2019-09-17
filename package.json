@@ -1,9 +1,10 @@
 {
-  "name": "github-hooks-example",
+  "name": "github-actions-example",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "lerna": "^3.16.4"
-  }
+  "license": "MIT"
 }
